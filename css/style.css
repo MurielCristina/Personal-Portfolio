@@ -1,17 +1,32 @@
 /*
 Color pallete
+Deep Blue (#00008B): For headers and primary elements.
+Pastel Blue (#A7C7E7): For backgrounds.
+Ivory (#FFFFF0): For text and clean, bright elements.
+Coral (#FF7F50): For vibrant highlights and accents.
+Cerulean (#007BA7): For secondary elements and accents.
 */
 
 :root {
   --font-heading: "Playfair Display", serif;
   --font-default: "Poppins", sans-serif;
+  --color-headers: #00008b;
+  --color-bg: #a7c7e7;
+  --color-bg2: #fffff0;
+  --color-highlights: #ff7f50;
+  --color-highlights2: #c3542c;
+
+  --color-text: #007ba7;
 }
 body {
   font-family: var(--font-default);
+  color: var(--color-text);
+  background-color: var(--color-bg2);
 }
 .container {
 }
 h1 {
+  color: var(--color-headers);
   font-family: var(--font-heading);
   font-weight: bold;
   font-size: 96px;
@@ -25,6 +40,7 @@ h5,
 h6 {
   font-family: var(--font-default);
   font-weight: bold;
+  color: var(--color-headers);
 }
 p {
   font-weight: normal;
@@ -32,17 +48,19 @@ p {
 }
 .introduction {
   text-align: center;
-  background-color: aquamarine;
+  background-color: var(--color-bg);
   padding-top: 160px;
   padding-bottom: 15px;
 }
 .introduction h3 {
   font-size: 36px;
+  color: var(--color-text);
 }
 .introduction h2 {
   font-weight: normal;
   font-size: 24px;
   margin-bottom: 10px;
+  color: var(--color-text);
 }
 .primary-button {
   border-radius: 4px;
@@ -50,4 +68,12 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+  background-color: var(--color-highlights);
+  color: var(--color-bg2);
+  border: none;
+}
+.primary-button:hover {
+  background-color: var(--color-highlights2);
+  color: var(--color-bg2);
+  transition: all 200ms ease-in-out;
 }
