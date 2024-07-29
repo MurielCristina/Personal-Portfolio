@@ -22,8 +22,7 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg2);
 }
-.container {
-}
+
 h1 {
   color: var(--color-headers);
   font-family: var(--font-heading);
@@ -69,6 +68,17 @@ a:hover {
   font-size: 24px;
   margin-bottom: 10px;
   color: var(--color-text);
+}
+@media (max-width: 850px) {
+  .introduction h3 {
+    font-size: 28px;
+  }
+  .introduction h1 {
+    font-size: 55px;
+  }
+  .introduction h2 {
+    font-size: 22px;
+  }
 }
 .primary-button {
   border-radius: 4px;
