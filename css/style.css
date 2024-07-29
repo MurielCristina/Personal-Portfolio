@@ -56,7 +56,7 @@ a:hover {
 .introduction {
   text-align: center;
   background-color: var(--color-bg);
-  padding-top: 160px;
+  padding-top: 110px;
   padding-bottom: 15px;
 }
 .introduction h3 {
