@@ -1,0 +1,29 @@
+/*
+Fonts:
+    Titles: 
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+    Subtitles: 
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+    Texts: 
+        font-family: "Poppins", sans-serif;
+        font-weight: normal;
+*/
+
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
