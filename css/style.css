@@ -272,4 +272,27 @@ footer p a {
   background-color: #a7c7e75e;
   padding: 20px;
   margin: 50px;
+  display: block;
+  justify-content: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 20px;
+}
+.projects-display h4 {
+  font-size: 40px;
+}
+.projects-display p {
+  font-size: 16px;
+  text-align: justify;
+  color: #000047;
+  opacity: 50%;
+}
+.projects-display a {
+  font-size: 14px;
+  display: block;
+  text-align: right;
+  color: var(--color-highlights);
+}
+.projects-display a:hover {
+  color: var(--color-highlights2);
 }
