@@ -354,16 +354,22 @@ footer p a {
   border-radius: 50%;
 }
 @media (max-width: 850px) {
+  .contact-me {
+    padding: 10px;
+  }
   .contact-me h4 {
     font-size: 18px;
   }
   .contact-me i {
-    font-size: 14px;
+    font-size: 10px;
   }
   .contact-me p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .contact-me a {
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .contact-me span {
+    padding-left: 10px;
   }
 }
