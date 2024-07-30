@@ -268,3 +268,8 @@ footer p a {
     padding-top: 0;
   }
 }
+.projects-display {
+  background-color: #a7c7e75e;
+  padding: 20px;
+  margin: 50px;
+}
