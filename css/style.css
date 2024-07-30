@@ -373,3 +373,13 @@ footer p a {
     padding-left: 10px;
   }
 }
+/*Bootstrap:*/
+.nav-link {
+  font-size: 14px !important;
+}
+.nav-link:hover {
+  color: var(--color-highlights) !important;
+}
+.active {
+  color: var(--color-highlights2) !important;
+}
