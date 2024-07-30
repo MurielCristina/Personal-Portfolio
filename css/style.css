@@ -191,3 +191,78 @@ footer p a {
     font-size: 10px;
   }
 }
+.about-me {
+  text-align: center;
+  padding: 110px 80px 30px 80px;
+}
+.secondary-button {
+  background-color: var(--color-bg2);
+  color: var(--color-highlights);
+  border: 2px solid var(--color-highlights);
+  border-radius: 4px;
+  margin: 5px;
+  font-size: 14px;
+  line-height: 13.5px;
+  padding: 12px 20px;
+}
+.secondary-button:hover {
+  color: var(--color-highlights2);
+  border: 2px solid var(--color-highlights2);
+  transition: all 200ms ease-in-out;
+  background-color: #fe359a1f;
+}
+.titles p {
+  font-size: 20px;
+  color: var(--color-headers);
+}
+.personal-description p {
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 40px;
+  padding: 20px;
+}
+@media (max-width: 850px) {
+  .about-me {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .about-me h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about-me h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+  }
+  .profile-pic {
+    margin-bottom: 20px;
+  }
+  .titles p {
+    font-size: 14px;
+    padding: 0;
+  }
+  .primary-button {
+    margin: 3px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 10px;
+  }
+  .secondary-button {
+    margin: 3px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 10px 10px;
+  }
+  .personal-description p {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+  }
+  footer {
+    padding-top: 0;
+  }
+}
