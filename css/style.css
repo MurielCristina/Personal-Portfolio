@@ -12,9 +12,9 @@ Cerulean (#007BA7): For secondary elements and accents.
   --font-default: "Poppins", sans-serif;
   --color-headers: #00008b;
   --color-bg: #a7c7e7;
-  --color-bg2: #fffff0;
-  --color-highlights: #ff7f50;
-  --color-highlights2: #c3542c;
+  --color-bg2: #fff7fb;
+  --color-highlights: #fe359b;
+  --color-highlights2: #a70269;
   --color-text: #007ba7;
 }
 body {
@@ -88,6 +88,12 @@ a:hover {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
+}
+.section-introductions a {
+  color: var(--color-highlights2);
+}
+.section-introductions a:hover {
+  color: var(--color-highlights);
 }
 .featured-project {
   max-width: 70%;
