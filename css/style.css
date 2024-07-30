@@ -320,3 +320,50 @@ footer p a {
     margin: auto;
   }
 }
+/*Contact:*/
+.contact-me {
+  background-color: #a7c7e75e;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.contact-me h4 {
+  background-color: var(--color-headers);
+  color: var(--color-bg2);
+  margin-bottom: 30px;
+}
+.contact-me p {
+  text-align: start;
+  font-size: 20px;
+}
+.contact-me p span {
+  color: var(--color-text);
+}
+.contact-me span {
+  padding-left: 35px;
+}
+.contact-me a {
+  font-size: 20px;
+}
+.contact-me i {
+  background-color: var(--color-headers);
+  color: var(--color-bg2);
+  padding: 5px;
+  border-radius: 50%;
+}
+@media (max-width: 850px) {
+  .contact-me h4 {
+    font-size: 18px;
+  }
+  .contact-me i {
+    font-size: 14px;
+  }
+  .contact-me p {
+    font-size: 12px;
+  }
+  .contact-me a {
+    font-size: 12px;
+  }
+}
