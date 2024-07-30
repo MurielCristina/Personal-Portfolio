@@ -220,6 +220,8 @@ footer p a {
   text-align: justify;
   margin-top: 40px;
   padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 @media (max-width: 850px) {
   .about-me {
